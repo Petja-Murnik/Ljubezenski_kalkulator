@@ -43,3 +43,8 @@ class Ljubezen:
             stevkice = sestej_stevke(stevkice)
         return int(stevkice[0])*10 + int(stevkice[1])
 
+def nov_izračun():
+    ime1 = input("Tvoje ime >")
+    ime2 = input("Ime tvoje simpatije >")
+    geslo = input("Geslo po katerem, naj ti izračunam (priporočam 'LOVES' >")
+    return Ljubezen(ime1, ime2, geslo)
