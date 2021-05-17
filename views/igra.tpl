@@ -7,13 +7,9 @@
 </blockquote>
 <form action="/igra/" method="post">Tvoje ime:
     <input type="text" name="oseba1" autofocus>
-</form>
-
-<form action="/igra/" method="post">Ime tvoje simpatije:
+Ime tvoje simpatije:
     <input type="text" name="oseba2" autofocus>
-</form>
-
-<form action="/igra/" method="post">Geslo:
+Geslo:
     <input type="text" name="geslo" autofocus>
     <button type="submit">Oddaj!</button>
 </form>

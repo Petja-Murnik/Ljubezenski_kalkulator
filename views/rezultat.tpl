@@ -3,5 +3,5 @@
 <h2>Ljubezenski kalkulator</h2>
 
 <blockquote>
-    S tvojo simpatijo se ujemata {{}}}
+    S tvojo simpatijo se ujemata {{rezultat}} %
   </blockquote>

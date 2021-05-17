@@ -36,11 +36,12 @@ class Ljubezen:
                 i = i + 1
         return seznam
 
-    def ujemanje( self ):
+    
+    def ujemanje(self):
         skupno_ime = self.oseba1 + ' ' + self.oseba2
-        stevkice = prestej_crke(self.geslo, niz=skupno_ime)
+        stevkice = Ljubezen.prestej_crke(self.geslo, skupno_ime)
         while len(stevkice) > 2 :
-            stevkice = sestej_stevke(stevkice)
+            stevkice = Ljubezen.sestej_stevke(stevkice)
         return int(stevkice[0])*10 + int(stevkice[1])
 
 def nov_izračun():

@@ -1,3 +1,4 @@
+
 import bottle
 import model
 
@@ -16,7 +17,16 @@ def pokazi_igro():
 
 @bottle.post("/igra/")
 def pokazi_rezultat():
-    return bottle.template("rezultat.tpl")
+    oseba1 = bottle.request.forms.getunicode("oseba1")
+    oseba2 = bottle.request.forms.getunicode("oseba2")
+    geslo = bottle.request.forms.getunicode("geslo")
+    waw = model.Ljubezen(oseba1, oseba2, geslo) 
+    rezultat = waw.ujemanje()
+    return bottle.template("rezultat.tpl",
+                            oseba1 = oseba1 ,
+                            oseba2 = oseba2,
+                            geslo = geslo,
+                            rezultat = rezultat)
     
 
 
