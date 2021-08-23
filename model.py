@@ -47,5 +47,5 @@ class Ljubezen:
 def nov_izračun():
     ime1 = input("Tvoje ime >")
     ime2 = input("Ime tvoje simpatije >")
-    geslo = input("Geslo po katerem, naj ti izračunam (priporočam 'LOVES' >")
+    geslo = input("Geslo po katerem, naj ti izračunam (priporočam 'LOVES') >")
     return Ljubezen(ime1, ime2, geslo)

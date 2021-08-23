@@ -27,8 +27,5 @@ def pokazi_rezultat():
                             oseba2 = oseba2,
                             geslo = geslo,
                             rezultat = rezultat)
-    
-
-
 
 bottle.run(reloader=True, debug=True)
