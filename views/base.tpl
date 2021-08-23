@@ -11,9 +11,11 @@
 
 <body>
     <div class="container">
+      <center>
         <section>
         {{!base}}
         </section>
+      </center>
     </div>
 </body>
 </html>

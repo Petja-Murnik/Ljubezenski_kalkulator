@@ -9,3 +9,7 @@
   <form action="/nova_igra/" method="POST">
     <button type="submit">Nova igra</button>
   </form>
+  
+<form action="/" method="GET">
+  <button type="submit">Začetna stran</button>
+</form>

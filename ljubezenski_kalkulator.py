@@ -20,7 +20,7 @@ def pokazi_rezultat():
     oseba1 = bottle.request.forms.getunicode("oseba1")
     oseba2 = bottle.request.forms.getunicode("oseba2")
     geslo = bottle.request.forms.getunicode("geslo")
-    waw = model.Ljubezen(oseba1, oseba2, geslo) 
+    waw = model.Ljubezen(oseba1, oseba2, geslo="LOVES") 
     rezultat = waw.ujemanje()
     return bottle.template("rezultat.tpl",
                             oseba1 = oseba1 ,
