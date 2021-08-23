@@ -3,7 +3,7 @@
   <h1>Ljubezenski kalkulator</h1>
 
   <blockquote>
-    Tukaj si lahkko izračunaš kako se s tvojo simpatijo privlačita
+    Tukaj si lahko izračunaš kako se s tvojo simpatijo privlačita. Po principu 
     <small>...</small>
   </blockquote>
 

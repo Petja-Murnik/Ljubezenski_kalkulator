@@ -5,11 +5,12 @@
 <blockquote>
   V primerna mesta napiši imena tebe, tvoje simpatije in gesla, po katerem naj ti izračunam procentualno kompatibilnost.
 </blockquote>
-<form action="/igra/" method="post">Tvoje ime:
+<form action="/igra/" method="post">
+    <b>Tvoje ime:</b>
     <input type="text" name="oseba1" autofocus>
-Ime tvoje simpatije:
+    <b>Ime tvoje simpatije:</b>
     <input type="text" name="oseba2" autofocus>
-Geslo:
+    <b>Geslo:</b>
     <input type="text" name="geslo" autofocus>
     <button type="submit">Oddaj!</button>
 </form>
