@@ -28,4 +28,8 @@ def pokazi_rezultat():
                             geslo = geslo,
                             rezultat = rezultat)
 
+@bottle.get("/princip_racunanja/")
+def pokazi_princip():
+    return bottle.template("pojasnila.tpl")
+
 bottle.run(reloader=True, debug=True)
