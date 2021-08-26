@@ -5,8 +5,10 @@
 <a><img src="/img/ljubezen_slika.jpg" alt="Srček" height="500" width="400"></a>
 
 <div>
-  V primerna mesta napiši imena tebe, tvoje simpatije in gesla, po katerem naj ti izračunam procentualno kompatibilnost. 
+  V primerna mesta napiši imena tebe, tvoje simpatije in gesla, po katerem naj ti izračunam procentualno kompatibilnost.
+  Če ne veš katero geslo bi uporabil, lahko pustiš polje prazno in bom uporabil geslo "LOVES". 
 </div>
+
 <form action="/igra/" method="post">
     <b>Tvoje ime:</b>
     <input type="text" name="oseba1" autofocus autocomplete="off">
