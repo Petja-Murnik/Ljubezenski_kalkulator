@@ -13,7 +13,7 @@
     <div class="container">
       <center>
         <section>
-        {{!base}}
+          {{!base}}
         </section>
       </center>
     </div>

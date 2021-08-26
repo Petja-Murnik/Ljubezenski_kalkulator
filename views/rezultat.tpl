@@ -1,6 +1,6 @@
 % rebase( 'base.tpl', title = 'igra')
 
-<h2>Ljubezenski kalkulator</h2>
+<h1><big><b><center>Ljubezenski kalkulator</center></b></big></h1>
 
 <blockquote>
     S tvojo simpatijo se ujemata {{rezultat}} %
