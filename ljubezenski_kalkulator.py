@@ -32,4 +32,8 @@ def pokazi_rezultat():
 def pokazi_princip():
     return bottle.template("pojasnila.tpl")
 
+@bottle.get("/img/<picture>")
+def serve_pictures(picture):
+    return bottle.static_file(picture, root="C:\\Users\\petja\\OneDrive\\Dokumenti\\UVP\\Ljubezenski_kalkulator\\img")
+
 bottle.run(reloader=True, debug=True)
