@@ -1,15 +1,21 @@
 % rebase( "base.tpl", title = "igra")
 
 <h1><big><b><center>Ljubezenski kalkulator</center></b></big></h1>
-<h2>Pojasnila:</h2>
+
+<form action="/nova_igra/" method="POST">
+    <button type="submit">Nova igra</button>
+  </form>
+  
+  <form action="/" method="GET">
+    <button type="submit">Začetna stran</button>
+  </form>
 
 <summary>
 Ta program deluje na principu igrice, katero smo vsi igrali v osnovni šoli.
 </summary>
-<blockquote>Izbereš si ime sebe ter svoje simpatije ter geslo po katerem boš to izračunal.</blockquote>
+<p>Izbereš si ime sebe ter svoje simpatije ter geslo po katerem boš to izračunal.<p>
 <p>Pokažimo to na primeru, ko je Brad Pitt zaljubljen v Angelino Jolie in si žeili izračunati njuno procentualno ujemanje.</p>
 <p>Brad najprej prešteje koliko črk imata v imenih on in Jolie. To naredi za vsako črko.</p>
-
 
 <table>
     <tr >

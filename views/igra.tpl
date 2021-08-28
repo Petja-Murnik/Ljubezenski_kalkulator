@@ -6,6 +6,8 @@
 
 <div>
   V primerna mesta napiši imena tebe, tvoje simpatije in gesla, po katerem naj ti izračunam procentualno kompatibilnost.
+</div>
+<div>
   Če ne veš katero geslo bi uporabil, lahko pustiš polje prazno in bom uporabil geslo "LOVES". 
 </div>
 
@@ -18,3 +20,5 @@
     <input type="text" name="geslo" autofocus autocomplete="off">
     <button type="submit">Izračunaj!</button>
 </form>
+
+<a href = "/">Nazaj na začetno stran</a>

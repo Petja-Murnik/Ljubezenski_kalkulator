@@ -11,8 +11,8 @@
           border: 1px solid black;
        }
       td {
-        height: 40px;
-        width: 40px;
+        height: 30px;
+        width: 50px;
         text-align: center;
         vertical-align: middle;
        }
