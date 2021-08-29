@@ -35,8 +35,7 @@ class Ljubezen:
                 seznam = seznam + [vsota]
                 i = i + 1
         return seznam
-
-    
+   
     def ujemanje(self):
         skupno_ime = self.oseba1 + ' ' + self.oseba2
         stevkice = Ljubezen.prestej_crke(self.geslo, skupno_ime)
