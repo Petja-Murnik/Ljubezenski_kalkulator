@@ -7,27 +7,20 @@
     Upsala ... Izgleda kot da vneseni podatki niso v redu! Poskusi ponovno!
   </blockquote>
   
-% elif rezultat >= 70 :
-  <a><img src = "/img/poroci.jpg" alt = "Poroka" height="400" width="250"></a>
+% elif rezultat >= 80 :
+  <a><img src = "/img/poroka1.png" alt = "Poroka" height="450" width="280"></a>
   <blockquote>
     S tvojo simpatijo se ujemata ogromnih <b>{{rezultat}} %</b> !!
     Oženi/omoži jo čimprej !
   </blockquote>
-  <a href = "/princip_racunanja/">Kako sem to izračunal ?</a>
+  <a href = "/princip_racunanja/">Princip izračuna.</a>
 
 % elif rezultat >= 40 :
-
+  <a><img src = "/img/vredu.jpg" alt = "Solidno" height="450" width="280"></a>
   <blockquote>
     S tvojo simpatijo se ujemata solidnih <b>{{rezultat}} %</b> !
   </blockquote>
-  <a href = "/princip_racunanja/">Kako sem to izračunal ?</a>
-
-% elif rezultat >= 20:
-
-  <blockquote>
-    S tvojo simpatijo se ujemata <b>{{rezultat}} %</b> .
-  </blockquote>
-  <a href = "/princip_racunanja/">Kako sem to izračunal ?</a>
+  <a href = "/princip_racunanja/">Princip izračuna.</a>
 
 % else :
   <a><img src = "/img/slabo.jpg" alt = "Slabo" height="400" width="250"></a>
@@ -35,7 +28,7 @@
     S tvojo simpatijo se ujemata zgolj <b>{{rezultat}} %</b> .
     Poišči si novo simpatijo!
   </blockquote>
-  <a href = "/princip_racunanja/">Kako sem to izračunal ?</a>
+  <a href = "/princip_racunanja/">Princip izračuna.</a>
 
 % end
 
